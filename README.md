@@ -4,46 +4,41 @@ when working on my personal projects.
 The Script generates issues in folder according to repo name and filenames based on titles.
 
 So for example
+<h3>Projects</h3>
 <ul>
     <li>
-        Projects
+        myprojecta
         <ul>
             <li>
-                myprojecta
-                <ul>
-                    <li>
-                        issue1 - username.txt
-                    </li>
-                    <li>
-                        issue2 - username.txt
-                    </li>
-                    <li>
-                        issue3 - username.txt
-                    </li>
-                    <li>
-                        issue4 - username.txt
-                    </li>
-                </ul>
+                issue1 - username.txt
             </li>
             <li>
-                myprojectb
-                <ul>
-                    <li>
-                        issue1 - username.txt
-                    </li>
-                    <li>
-                        issue2 - username.txt
-                    </li>
-                    <li>
-                        issue3 - username.txt
-                    </li>
-                    <li>
-                        issue4 - username.txt
-                    </li>
-                </ul>
+                issue2 - username.txt
+            </li>
+            <li>
+                issue3 - username.txt
+            </li>
+            <li>
+                issue4 - username.txt
             </li>
         </ul>
-    
+    </li>
+    <li>
+        myprojectb
+        <ul>
+            <li>
+                issue1 - username.txt
+            </li>
+            <li>
+                issue2 - username.txt
+            </li>
+            <li>
+                issue3 - username.txt
+            </li>
+            <li>
+                issue4 - username.txt
+            </li>
+        </ul>
     </li>
 </ul>
 
