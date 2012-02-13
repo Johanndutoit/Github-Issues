@@ -4,14 +4,48 @@ when working on my personal projects.
 The Script generates issues in folder according to repo name and filenames based on titles.
 
 So for example
-Projects/myprojecta/issue1 - username.txt
-Projects/myprojecta/issue2 - username.txt
-Projects/myprojecta/issue3 - username.txt
-Projects/myprojecta/issue4 - username.txt
-Projects/myprojectabc/issue1 - username.txt
-Projects/myprojectabc/issue2 - username.txt
-Projects/myprojectabc/issue3 - username.txt
-Projects/myprojectabc/issue4 - username.txt
+<ul>
+    <li>
+        Projects
+        <ul>
+            <li>
+                myprojecta
+                <ul>
+                    <li>
+                        issue1 - username.txt
+                    </li>
+                    <li>
+                        issue2 - username.txt
+                    </li>
+                    <li>
+                        issue3 - username.txt
+                    </li>
+                    <li>
+                        issue4 - username.txt
+                    </li>
+                </ul>
+            </li>
+            <li>
+                myprojectb
+                <ul>
+                    <li>
+                        issue1 - username.txt
+                    </li>
+                    <li>
+                        issue2 - username.txt
+                    </li>
+                    <li>
+                        issue3 - username.txt
+                    </li>
+                    <li>
+                        issue4 - username.txt
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    
+    </li>
+</ul>
 
 To get started just execute the jar with your username and api key:
 java -jar Github_Issues.jar {yourusername} {apikey}
